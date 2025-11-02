@@ -32,6 +32,12 @@ ul {
   list-style-type: none;
 }
 
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -75,6 +81,7 @@ section {
 
 .page-nav {
   display: flex;
+  gap: 76px;
   justify-content: space-between;
   flex-grow: 1;
 }
@@ -161,6 +168,9 @@ section {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -189,6 +199,8 @@ section {
 }
 
 .values-list {
+  display: flex;
+  gap: 24px;
 }
 
 .values-item {
@@ -223,17 +235,25 @@ section {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-bottom: 72px;
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;
   background-color: #ffffff;
 }
 
 .team-item {
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
 }
 
 .team-img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .team-member-name {
@@ -242,6 +262,7 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 
 .team-member-role {
@@ -249,6 +270,7 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 /* #endregion Team section */
 
