@@ -183,6 +183,7 @@ section {
   cursor: pointer;
   background-color: #4d5ae5;
   color: #ffffff;
+  margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -206,9 +207,11 @@ section {
 }
 
 .values-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .values-item-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -227,6 +230,7 @@ section {
 /* #region Team section */
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -237,17 +241,16 @@ section {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  background-color: #ffffff;
 }
 
 .team-item {
-  gap: 24px;
+  border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
 }
@@ -258,13 +261,18 @@ section {
   height: auto;
 }
 
+.team-member-info {
+  padding: 32px 0;
+}
+
 .team-member-name {
+  text-align: center;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
 }
 
 .team-member-role {
